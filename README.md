@@ -16,7 +16,7 @@
             background-color: rgb(0, 0, 0);
             width: 1900px;
             height: 100px;
-            text-align: center; /* Centraliza o conteúdo horizontalmente */
+            text-align: center;
             padding-top: 40px;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         }
@@ -44,14 +44,14 @@
       
         .custom-titleCatalogo {
             color: rgb(255, 255, 255);
-            text-align: center; /* Centraliza o texto horizontalmente */
+            text-align: center; 
             margin-top: -60px;
            margin-left: 100px ;
             
         }
         .custom-titleinicio {
             color: rgb(255, 255, 255);
-            text-align: center; /* Centraliza o texto horizontalmente */
+            text-align: center;
             margin-top: -40px;
             margin-left: -100px;
             
