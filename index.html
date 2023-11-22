@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <title>Formulário Fofo</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        main{
+            width: 60%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 25px 25px 10px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+        h1{
+            color: #333;
+            font-size: 24px;
+        }
+        p{
+            color: #666;
+            font-size: 16px;
+        }
+        label, input{
+            display: inline-block;
+            margin: 0 40px;
+            margin-bottom: 5px;
+        }
+        input{
+            width: calc(60% - 100px);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        label{
+            width: calc(40% - 100px);
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        button{
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        button[type="reset"]{
+            background-color: #f5b049;
+        }
+        button:hover{
+            background-color: #0056b3;
+        }
+        button[type=reset]:hover{
+            background-color: #ac7727;
+        }
+        .botoes{
+            text-align: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>Cadastro de Usuário</h1>
+            <p>Preencha o formulário abaixo para se cadastrar:</p>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+                <label for="confirmarsenha">Confirmar Senha:</label>
+                <input type="password" id="confirmarsenha" name="confirmarsenha" required>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" required>
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" required>
+                <div class="botoes">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
